@@ -1,0 +1,10 @@
+create a!
+create b!
+a = 0!
+a = a + 1!
+b = 0!
+loop a > b {
+a = a + 1!
+b = b + a!
+}!
+pow b!
